@@ -38,8 +38,16 @@ header {
 	display: inline;
 }
 
-#navbar a {
+#navbar a:not(:hover) {
 	color: white;
+	font-size: 16px;
+	padding: .5em;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	color: #D87E28;
 	font-size: 16px;
 	padding: .5em;
 	font-variant: small-caps;
@@ -48,6 +56,11 @@ header {
 
 .svg {
 	height: 1em;
+	width: 1em;
+}
+
+#navimg {
+	margin-left: 15px;
 }
 
 
@@ -69,9 +82,16 @@ header {
 	padding-top: 2em;
 }
 
+#info img {
+	margin: auto;
+	vertical-align: middle;
+	margin-bottom: 1em;
+}
+
 #contactList {
 	list-style-type: none;
 }
+
 
 #map {
     border-radius: 5px;
@@ -81,6 +101,7 @@ header {
 	padding-top: 2em;
 	padding-bottom: 2em;
 	background-color: #dbdce3;
+	text-align: center;
 }
 
 #menu dd {
@@ -158,9 +179,10 @@ footer {
 
 	#headlineIcon {
 		display: block;
+		margin: auto;
 		vertical-align: middle;
 		height: 1.5em;
-		padding-bottom: 1em;
+		margin-bottom: 1em;
 	}
 
 	#iconsAttr {
