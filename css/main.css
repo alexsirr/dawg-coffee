@@ -188,6 +188,13 @@ footer {
 	#iconsAttr {
 		text-align: right;
 	}
+
+	#ordersheadline {
+		width: 100%;
+		padding: 1em;
+		background-color: #dbdce3;
+		text-align: left;
+	}
 }
 
 @media screen and (min-width: 769px) {
