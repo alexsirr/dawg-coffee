@@ -24,6 +24,19 @@ header {
 	padding-top: 3em;
 }
 
+svg {
+	height: 1em;
+}
+
+footer {
+	border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #D87E28;
+	background-color: #afb3c2;
+	font-size: 12px;
+	clear: both;
+}
+
 #navbar {
 	width: 100%;
 	background-color: #181C22;
@@ -44,6 +57,7 @@ header {
 	padding: .5em;
 	font-variant: small-caps;
 	text-decoration: none;
+	fill: white;
 }
 
 #navbar a:hover {
@@ -52,11 +66,7 @@ header {
 	padding: .5em;
 	font-variant: small-caps;
 	text-decoration: none;
-}
-
-.svg {
-	height: 1em;
-	width: 1em;
+	fill: #D87E28;
 }
 
 #navimg {
@@ -74,6 +84,7 @@ header {
 
 #headlineIcon {
 	display: none;
+	fill: #D87E28;
 }
 
 #info {
@@ -86,6 +97,21 @@ header {
 	margin: auto;
 	vertical-align: middle;
 	margin-bottom: 1em;
+}
+
+#hoursimg {
+	margin-bottom: 1em;
+	fill: #D87E28;
+}
+
+#locationimg {
+	margin-bottom: 1em;
+	fill: #D87E28;
+}
+
+#contactimg {
+	margin-bottom: 1em;
+	fill: #D87E28;
 }
 
 #contactList {
@@ -120,15 +146,6 @@ header {
 	background-color: #dbdce3;
 }
 
-footer {
-	border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color: #D87E28;
-	background-color: #afb3c2;
-	font-size: 12px;
-	clear: both;
-}
-
 #footerContent {
 	padding-top: 1em;
 }
@@ -148,15 +165,6 @@ footer {
 		margin-top: 0em;
 	}
 
-	#navbar {
-		background-color: rgba(24, 28, 34, 0.8);
-	}
-
-	#navbar a {
-		padding-right: 1em; 
-		padding-left: 1em;
-	}
-
 	header {
 		min-height: 550px;
 		background-image: url(../img/background-sm.jpg);
@@ -164,6 +172,15 @@ footer {
     	background-repeat: no-repeat;
 		text-align: right;
 		color: white;
+	}
+
+	#navbar {
+		background-color: rgba(24, 28, 34, 0.8);
+	}
+
+	#navbar a {
+		padding-right: 1em; 
+		padding-left: 1em;
 	}
 
 	#motto {
